@@ -80,7 +80,6 @@ CREATE TABLE `cuenta` (
   `Segundo_Nombre` varchar(60) DEFAULT NULL COMMENT 'Segundo nombre del usuario (opcional)',
   `Primer_Apellido` varchar(60) NOT NULL COMMENT 'Primer Apellido del usuario',
   `Segundo_Apellido` varchar(60) DEFAULT NULL COMMENT 'Segundo apellido del Usuario (opcional)',
-  `Contrasena` varchar(100) NOT NULL COMMENT 'contraseña que ingresa el usuario ',
   `Correo` varchar(50) NOT NULL COMMENT 'Correo que ingresa el usuario ',
   `Direccion` varchar(30) NOT NULL COMMENT 'Direccion de residencia  que ingresa el usuario ',
   `Telefono` varchar(20) DEFAULT NULL COMMENT 'Telefono fijo que ingresa el usuario ',
@@ -470,4 +469,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-03-11 19:35:09
+-- Dump completed on 2015-03-16 19:23:32
